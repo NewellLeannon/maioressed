@@ -1,0 +1,21 @@
+ignores: [
+  "@babel/cli",
+  "@babel/register",
+  "core-js",
+  "mongodb-client-encryption",
+  "moment",
+  "font-awesome",
+  "karma-chai",
+  "karma-chai-sinon",
+  "karma-electron",
+  "karma-mocha",
+  "karma-mocha-reporter",
+  "karma-sinon",
+  "karma-sourcemap-loader",
+  "karma-webpack",
+  "webpack-bundle-analyzer",
+  "webpack-cli",
+  "mongodb-compass",
+  "jsdom",
+  "jsdom-global"
+]

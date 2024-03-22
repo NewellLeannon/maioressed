@@ -1,0 +1,39 @@
+@import (reference) 'mongodb-compass/src/app/styles/index.less';
+
+.sample-documents {
+  border: 1px solid @gray6;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px @gray6;
+  margin: 15px 0;
+
+  .sample-documents-content {
+    background-color: @pw;
+    padding: 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+
+    .document-container {
+      width: 49%;
+    }
+
+    .matching-documents {
+      color: #13aa52;
+      font-weight: bold;
+
+      i.info-sprinkle {
+        color: #13aa52;
+      }
+    }
+
+    .notmatching-documents {
+      color: @alertRed;
+      font-weight: bold;
+
+      i.info-sprinkle {
+        color: @alertRed;
+      }
+    }
+  }
+}
